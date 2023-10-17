@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<head>
+
+    <script src="qr.js"></script>
+    <script src="sjcl.js"></script>
+</head>
+
+<body>
+    <h1>quark qr-code safes!</h1>
+    <p>quark encodes your data into an encrypted safe stored directly in the qr code itself!</p>
+    <hr>
+    <h2>input</h2>
+    <p>content</p>
+    <textarea id="input"></textarea>
+    <p>key</p>
+    <input type="password" id="key"></input>
+    <button onclick="encode()">go</button>
+    <hr>
+    <h2>output</h2>
+
+    <canvas id="qr"></canvas>
+    <p id="out"></p>
+
+    <script src="script.js"></script>
+</body>
